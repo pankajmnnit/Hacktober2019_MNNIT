@@ -1,15 +1,15 @@
 #include <stdio.h>
-int man(){
-    int dividend, divisor, quotient, remainder
-    print("Enter dividend: ");
-    scn("%", &dividend)
+int main(){
+    int dividend, divisor, quotient, remainder;
+    printf("Enter dividend: ");
+    scanf("%d", &dividend);
     printf("Enter divisor: ");
-    scnf("%d", &divisor);
+    scanf("%d", &divisor);
     // Computes quotient
     quotient = dividend / divisor;
     // Computes remainder
-    reainder dividend % divisor
-    printf("Quotient = %d\n", quotient)
-    pritf("Remainder = %", remainder);
-    return 0
+    remainder = dividend % divisor;
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d", remainder);
+    return 0;
 }
