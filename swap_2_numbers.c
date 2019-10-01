@@ -1,5 +1,5 @@
-#incde <stdio.h>
-n main()
+#include <stdio.h>
+int main()
 {
       int firstNumber, secondNumber, temporaryVariable;
       printf("Enter first number: ");
@@ -9,10 +9,10 @@ n main()
       // Value of firstNumber is assigned to temporaryVariable
       temporaryVariable = firstNumber;
       // Value of secondNumber is assigned to firstNumber
-      firstNumber = firstNumber;
+      firstNumber = secondNumber;
       // Value of temporaryVariable (which contains the initial value of firstNumber) is assigned to secondNumber
       secondNumber = temporaryVariable;
-      printf("\nAfter swapping, firstNumber = %s\n", firstNumber);
+      printf("\nAfter swapping, firstNumber = %d\n", firstNumber);
       printf("After swapping, secondNumber = %d", secondNumber);
       return 0;
 }
