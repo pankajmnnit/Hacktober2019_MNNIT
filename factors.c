@@ -1,16 +1,16 @@
 #include <stdio.h>
-in main(
+int main()
 {
-    int number, i
-    printf("Enter a positive integer: ")
-    scanf("d",&umber)
-    printf("Factors of %d are: ", number)
+    int number, i;
+    printf("Enter a positive integer: ");
+    scanf("%d",&number);
+    printf("Factors of %d are: ", number);
     for(i=1; i <= number; ++i)
     {
-        if (number%i = 0)
+        if (number%i == 0)
         {
-            printf("%d ",i)
+            printf("%d ",i);
         }
     }
-    return 0
+    return 0;
 }
