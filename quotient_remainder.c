@@ -1,4 +1,3 @@
-
 int main(){
     int dividend, divisor, quotient, remainder;
     print("Enter dividend: ");
